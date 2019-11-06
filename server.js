@@ -17,7 +17,7 @@ function intervalFunc() {
       console.log('end python')
   })
    }
-  setInterval(intervalFunc,300000);
+  setInterval(intervalFunc,30000);
 
 
 app.use(express.static(__dirname + '/'));
