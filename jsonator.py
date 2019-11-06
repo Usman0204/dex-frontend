@@ -61,5 +61,7 @@ class getData:
         # f.write(newdata)
         # f.close()
 
-getIt = getData("https://backendtuneapi.herokuapp.com/gettokendata")
+# getIt = getData("https://backendtuneapi.herokuapp.com/gettokendata")
+getIt = getData("http://ec2-52-221-207-39.ap-southeast-1.compute.amazonaws.com:3000/deployed-tokens")
+
 getIt.fetchData()
